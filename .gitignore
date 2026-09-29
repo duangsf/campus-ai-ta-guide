@@ -1,0 +1,26 @@
+# ══════════════ 运行时数据 ══════════════
+# sqlite 问答日志库：首次启动由 server/db.js 自动创建并迁移，无需（也不应）纳入版本管理
+data/v2.db
+data/v2.db-shm
+data/v2.db-wal
+
+# ══════════════ 操作系统 ══════════════
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ══════════════ 编辑器 / IDE ══════════════
+.vscode/
+.idea/
+*.swp
+
+# ══════════════ 依赖与产物 ══════════════
+# 本项目零第三方 Node 依赖，正常不会出现 node_modules/
+node_modules/
+*.log
+
+# ══════════════ 本地私有配置 ══════════════
+# API Key 只应存放于本机环境变量或浏览器 localStorage，切勿写入仓库
+.env
+.env.*
+config.local.*

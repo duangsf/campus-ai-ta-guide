@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>校园AI数字人智慧导览助教 · v2 旗舰版</title>
+<link rel="stylesheet" href="/css/app.css">
+</head>
+<body>
+<div id="boot">
+  <div class="boot-box">
+    <div class="boot-title">校园AI数字人智慧导览助教</div>
+    <div class="boot-sub">v2 旗舰版 · 正在初始化检索引擎…</div>
+    <div class="boot-bar"><i></i></div>
+  </div>
+</div>
+
+<div id="app" hidden>
+  <!-- ══════════ 左侧：数字人舞台 ══════════ -->
+  <section id="stage">
+    <div class="brand">
+      <span class="logo">近与远</span>
+      <div class="brand-text">
+        <b>校园AI数字人智慧导览助教</b>
+        <small>导览 · 知识 · 知心</small>
+      </div>
+      <span id="modeBadge" class="badge">探测中…</span>
+    </div>
+
+    <div id="avatarWrap">
+      <canvas id="avatarFx"></canvas>
+      <div id="listeningRing"></div>
+      <div id="avatar" class="happy">
+        <div class="portrait"><img id="avatarImage" src="/assets/数字人_小岚.png" alt="小岚"></div>
+        <canvas id="mouthCanvas" width="360" height="150"></canvas>
+      </div>
+      <div class="rolePicker" role="group" aria-label="切换数字人">
+        <button type="button" class="roleBtn active" data-role="female">小岚 · 学生服务</button>
+        <button type="button" class="roleBtn" data-role="male">小航 · 校园事务</button>
+      </div>
+    </div>
+
+    <div class="stage-foot">
+      <div class="statusChip" id="statusChip"><span class="dot"></span><span id="statusText">待机中</span></div>
+      <div class="stage-stats" id="stageStats"></div>
+    </div>
+
+    <!-- 左侧工具条：一键切换右侧主视图 -->
+    <nav class="stageNav" id="stageNav">
+      <button type="button" class="navBtn active" data-view="chat" title="对话">💬<em>对话</em></button>
+      <button type="button" class="navBtn" data-view="map" title="2.5D 校园地图">🗺️<em>地图</em></button>
+      <button type="button" class="navBtn" data-view="globe" title="3D 校园沙盘">🧊<em>3D</em></button>
+      <button type="button" class="navBtn" data-view="graph" title="知识图谱">🕸️<em>图谱</em></button>
+      <button type="button" class="navBtn" data-view="dash" title="运营看板">📊<em>看板</em></button>
+      <button type="button" class="navBtn" data-view="eval" title="评测面板">🎯<em>评测</em></button>
+    </nav>
+  </section>
+
+  <!-- ══════════ 右侧：主视图区 ══════════ -->
+  <section id="panel">
+    <header id="panelHead">
+      <div class="mini" id="miniAvatar"></div>
+      <div class="head-text">
+        <h1 id="panelTitle">智慧校园问答助手</h1>
+        <p id="panelHint">语音 / 文字均可 · 三路融合检索 · 答案带来源 · 支持多轮追问</p>
+      </div>
+      <div class="spacer"></div>
+      <button type="button" id="btnTrace" class="ghost" title="展开 RAG 检索链路">🔍 RAG 链路</button>
+      <button type="button" id="btnSet" class="ghost" title="设置">⚙️ 设置</button>
+    </header>
+
+    <div id="viewHost">
+      <!-- ── 对话视图 ── -->
+      <div class="view active" id="view-chat">
+        <div id="chatScroll">
+          <div id="chatList"></div>
+        </div>
+        <div id="composer">
+          <div id="quickRow"></div>
+          <div class="inputRow">
+            <input id="txt" type="text" placeholder="输入你的问题，例如：现在还能去哪里自习？" autocomplete="off">
+            <button type="button" id="btnVoice" title="按住说话">🎤</button>
+            <button type="button" id="btnSend" title="发送">➤</button>
+          </div>
+          <div class="composer-tip" id="composerTip"></div>
+        </div>
+      </div>
+
+      <!-- ── 2.5D 地图视图 ── -->
+      <div class="view" id="view-map">
+        <div class="mapToolbar">
+          <span class="mapTitle">兴安校区 · 交互式导览图</span>
+          <span class="mapMeta" id="mapMeta"></span>
+          <div class="spacer"></div>
+          <label class="chk"><input type="checkbox" id="mapLive" checked> 实时开放状态</label>
+          <button type="button" class="ghost sm" id="mapReset">重置视角</button>
+        </div>
+        <div class="mapCanvasWrap">
+          <svg id="campusMap" viewBox="0 0 1000 1000" preserveAspectRatio="xMidYMid meet"></svg>
+        </div>
+        <div class="mapSide" id="mapSide">
+          <div class="side-empty">点击地图上的楼宇查看详情，或直接问「从宿舍到图书馆怎么走」让我演示一路导航。</div>
+        </div>
+      </div>
+
+      <!-- ── 3D 沙盘视图 ── -->
+      <div class="view" id="view-globe">
+        <div class="mapToolbar">
+          <span class="mapTitle">3D 校园沙盘 · Three.js 实时渲染</span>
+          <span class="mapMeta" id="globeMeta">拖拽旋转 · 滚轮缩放</span>
+          <div class="spacer"></div>
+          <label class="chk"><input type="checkbox" id="globeProj" checked> 沙盘视角（正交）</label>
+          <label class="chk"><input type="checkbox" id="globeNight"> 夜景模式</label>
+          <label class="chk"><input type="checkbox" id="globeAuto" checked> 自动环绕</label>
+          <button type="button" class="ghost sm" id="globeReset">复位</button>
+        </div>
+        <div id="globeHost"></div>
+        <div id="globeTip">已加载 <b id="globeCount">0</b> 栋建筑 · 数据源：<code>data/places.json</code></div>
+      </div>
+
+      <!-- ── 知识图谱视图 ── -->
+      <div class="view" id="view-graph">
+        <div class="mapToolbar">
+          <span class="mapTitle">校园知识图谱 · 多跳关系网络</span>
+          <span class="mapMeta" id="graphMeta"></span>
+          <div class="spacer"></div>
+          <button type="button" class="ghost sm" id="graphReset">重新布局</button>
+        </div>
+        <div id="graphHost"><canvas id="graphCanvas"></canvas></div>
+        <div id="graphSide"></div>
+      </div>
+
+      <!-- ── 运营看板视图 ── -->
+      <div class="view" id="view-dash">
+        <div class="mapToolbar">
+          <span class="mapTitle">运营数据看板</span>
+          <span class="mapMeta" id="dashMeta"></span>
+          <div class="spacer"></div>
+          <button type="button" class="ghost sm" id="dashRefresh">刷新</button>
+          <button type="button" class="ghost sm danger" id="dashReset">清空数据</button>
+        </div>
+        <div class="dashGrid" id="dashGrid"></div>
+      </div>
+
+      <!-- ── 评测视图 ── -->
+      <div class="view" id="view-eval">
+        <div class="mapToolbar">
+          <span class="mapTitle">检索策略消融评测</span>
+          <span class="mapMeta" id="evalMeta">基于 <code>data/eval-set.json</code> 人工标注评测集</span>
+          <div class="spacer"></div>
+          <button type="button" class="ghost sm" id="evalQuick">快速演示（16题）</button>
+          <button type="button" class="primary sm" id="evalRun">运行全量评测</button>
+        </div>
+        <div class="evalBody" id="evalBody">
+          <div class="side-empty">点击「运行全量评测」，对比 v1 关键词子串匹配与 v2 三路融合检索在 Recall / MRR / 兜底准确率 / 误答率 / 耗时上的差异。</div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ══════════ RAG 链路可视化抽屉 ══════════ -->
+<aside id="traceDrawer" aria-label="RAG 检索链路">
+  <header class="drawer-head">
+    <b>RAG 检索链路</b>
+    <span class="drawer-sub">实时可视化</span>
+    <div class="spacer"></div>
+    <button type="button" id="traceClose" class="ghost sm">✕</button>
+  </header>
+  <div class="drawer-body" id="traceBody">
+    <div class="side-empty">提问后，这里会逐帧展示：<br>查询理解 → 分词 → 三路召回 → 融合重排 → 置信度闸门 → Prompt 注入 → 流式生成 → 引用核验 → 落库。</div>
+  </div>
+</aside>
+
+<!-- ══════════ 设置弹窗 ══════════ -->
+<div id="modal">
+  <div class="modalBox">
+    <h2>⚙️ 系统设置</h2>
+    <p class="desc">
+      云端大模型模式需要 API Key（通过 <code>node server/server.js</code> 启动以规避跨域）；
+      无 Key 时会自动降级为本机知识库模式，<b>完全离线可用</b>，路演现场零风险。
+    </p>
+
+    <label>运行模式</label>
+    <select id="setMode">
+      <option value="auto">自动（有 Key 走云端 Agent，无 Key 走本地知识库）</option>
+      <option value="cloud">强制云端（Agent 工具调用 + 流式输出）</option>
+      <option value="local">强制本地知识库（离线）</option>
+    </select>
+
+    <label>API Key</label>
+    <input id="setKey" type="text" placeholder="留空则使用本地知识库模式" autocomplete="off">
+    <p class="hint" id="keyHint">Key 仅保存在本机浏览器 localStorage，不会写入代码仓库。</p>
+
+    <label>模型</label>
+    <input id="setModel" type="text" placeholder="DeepSeek-V4-Flash">
+
+    <label>语音播报</label>
+    <select id="setTts"><option value="true">开启</option><option value="false">关闭</option></select>
+
+    <label>应答链路</label>
+    <select id="setFast">
+      <option value="false">Agent 模式（推荐演示）：模型自主调用工具，RAG 链路完整可见</option>
+      <option value="true">极速模式：先本地检索并注入知识，知识注入确定发生、链路更短</option>
+    </select>
+    <p class="hint">两种模式共用同一套检索引擎与置信度闸门，答案口径一致，差别在链路长度与可见性。极速模式不依赖模型的工具决策，因此知识注入更可控（模型偶尔会跳过检索凭记忆作答）。上游延迟本身波动较大，现场两种模式都可以试一下再定。</p>
+
+    <label>小岚音色</label>
+    <select id="setVoiceF"></select>
+    <label>小航音色</label>
+    <select id="setVoiceM"></select>
+
+    <div class="row">
+      <button type="button" id="btnSave" class="primary">保存</button>
+      <button type="button" id="btnCancel" class="ghost">取消</button>
+    </div>
+  </div>
+</div>
+
+<div id="toastHost"></div>
+
+<!-- 数据与引擎：统一使用根路径引用，避免相对路径在静态检查与实际请求间产生歧义 -->
+<script src="/src/knowledge.js"></script>
+<script src="/data/graph.js"></script>
+<script src="/data/places.js"></script>
+<script src="/data/corpus.js"></script>
+<script src="/data/forms.js"></script>
+<script src="/data/departments.js"></script>
+<script src="/data/eval-set.js"></script>
+<script src="/vendor/echarts.min.js"></script>
+<script src="/vendor/markdown-it.min.js"></script>
+<script src="/src/rag.js"></script>
+<script type="module" src="/js/app.js"></script>
+</body>
+</html>

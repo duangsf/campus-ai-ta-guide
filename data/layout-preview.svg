@@ -1,0 +1,463 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+<defs>
+<radialGradient id="g" cx="50%" cy="40%" r="78%"><stop offset="0%" stop-color="#1b2f45"/><stop offset="100%" stop-color="#0b1725"/></radialGradient>
+<linearGradient id="c0" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e8cfae"/><stop offset="100%" stop-color="#c9a87e"/></linearGradient>
+<linearGradient id="c1" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#ecdcbe"/><stop offset="100%" stop-color="#cfb894"/></linearGradient>
+<linearGradient id="c2" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e3c9a6"/><stop offset="100%" stop-color="#c2a077"/></linearGradient>
+<linearGradient id="c3" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#dfab7d"/><stop offset="100%" stop-color="#bd8557"/></linearGradient>
+<linearGradient id="c4" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e9dcc4"/><stop offset="100%" stop-color="#cbb894"/></linearGradient>
+<linearGradient id="c5" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#d99a72"/><stop offset="100%" stop-color="#b5734c"/></linearGradient>
+<linearGradient id="c6" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e5cfa6"/><stop offset="100%" stop-color="#c6ac7d"/></linearGradient>
+<linearGradient id="c7" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#ddd0b6"/><stop offset="100%" stop-color="#bfae8d"/></linearGradient>
+<linearGradient id="c8" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e7e4d8"/><stop offset="100%" stop-color="#c8c4b3"/></linearGradient>
+<linearGradient id="c9" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e0906a"/><stop offset="100%" stop-color="#bc6c46"/></linearGradient>
+<linearGradient id="c10" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e0c3a0"/><stop offset="100%" stop-color="#c1a077"/></linearGradient>
+<linearGradient id="c11" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#c85a4a"/><stop offset="100%" stop-color="#a34134"/></linearGradient>
+<linearGradient id="c12" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#3f7fa8"/><stop offset="100%" stop-color="#2b5f83"/></linearGradient>
+<linearGradient id="c13" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#b9bfc4"/><stop offset="100%" stop-color="#9aa1a7"/></linearGradient>
+<linearGradient id="c14" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e8c341"/><stop offset="100%" stop-color="#c99e1f"/></linearGradient>
+<linearGradient id="c15" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#c8bfa8"/><stop offset="100%" stop-color="#a89e83"/></linearGradient>
+<linearGradient id="def" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#ddc7a6"/><stop offset="100%" stop-color="#bda684"/></linearGradient>
+<linearGradient id="water" x1="0" y1="0" x2="0.3" y2="1"><stop offset="0%" stop-color="#5fa2c8"/><stop offset="100%" stop-color="#2b5f83"/></linearGradient>
+<linearGradient id="gold" x1="0" y1="0" x2="0.6" y2="1"><stop offset="0%" stop-color="#f5d76e"/><stop offset="100%" stop-color="#b8891c"/></linearGradient>
+<filter id="soft"><feGaussianBlur stdDeviation="3"/></filter>
+</defs>
+<rect width="1000" height="1000" fill="url(#g)"/>
+<line x1="0" y1="0" x2="0" y2="1000" stroke="rgba(120,165,220,.06)"/>
+<line x1="0" y1="0" x2="1000" y2="0" stroke="rgba(120,165,220,.06)"/>
+<line x1="40" y1="0" x2="40" y2="1000" stroke="rgba(120,165,220,.06)"/>
+<line x1="0" y1="40" x2="1000" y2="40" stroke="rgba(120,165,220,.06)"/>
+<line x1="80" y1="0" x2="80" y2="1000" stroke="rgba(120,165,220,.06)"/>
+<line x1="0" y1="80" x2="1000" y2="80" stroke="rgba(120,165,220,.06)"/>
+<line x1="120" y1="0" x2="120" y2="1000" stroke="rgba(120,165,220,.06)"/>
+<line x1="0" y1="120" x2="1000" y2="120" stroke="rgba(120,165,220,.06)"/>
+<line x1="160" y1="0" x2="160" y2="1000" stroke="rgba(120,165,220,.06)"/>
+<line x1="0" y1="160" x2="1000" y2="160" stroke="rgba(120,165,220,.06)"/>
+<line x1="200" y1="0" x2="200" y2="1000" stroke="rgba(120,165,220,.06)"/>
+<line x1="0" y1="200" x2="1000" y2="200" stroke="rgba(120,165,220,.06)"/>
+<line x1="240" y1="0" x2="240" y2="1000" stroke="rgba(120,165,220,.06)"/>
+<line x1="0" y1="240" x2="1000" y2="240" stroke="rgba(120,165,220,.06)"/>
+<line x1="280" y1="0" x2="280" y2="1000" stroke="rgba(120,165,220,.06)"/>
+<line x1="0" y1="280" x2="1000" y2="280" stroke="rgba(120,165,220,.06)"/>
+<line x1="320" y1="0" x2="320" y2="1000" stroke="rgba(120,165,220,.06)"/>
+<line x1="0" y1="320" x2="1000" y2="320" stroke="rgba(120,165,220,.06)"/>
+<line x1="360" y1="0" x2="360" y2="1000" stroke="rgba(120,165,220,.06)"/>
+<line x1="0" y1="360" x2="1000" y2="360" stroke="rgba(120,165,220,.06)"/>
+<line x1="400" y1="0" x2="400" y2="1000" stroke="rgba(120,165,220,.06)"/>
+<line x1="0" y1="400" x2="1000" y2="400" stroke="rgba(120,165,220,.06)"/>
+<line x1="440" y1="0" x2="440" y2="1000" stroke="rgba(120,165,220,.06)"/>
+<line x1="0" y1="440" x2="1000" y2="440" stroke="rgba(120,165,220,.06)"/>
+<line x1="480" y1="0" x2="480" y2="1000" stroke="rgba(120,165,220,.06)"/>
+<line x1="0" y1="480" x2="1000" y2="480" stroke="rgba(120,165,220,.06)"/>
+<line x1="520" y1="0" x2="520" y2="1000" stroke="rgba(120,165,220,.06)"/>
+<line x1="0" y1="520" x2="1000" y2="520" stroke="rgba(120,165,220,.06)"/>
+<line x1="560" y1="0" x2="560" y2="1000" stroke="rgba(120,165,220,.06)"/>
+<line x1="0" y1="560" x2="1000" y2="560" stroke="rgba(120,165,220,.06)"/>
+<line x1="600" y1="0" x2="600" y2="1000" stroke="rgba(120,165,220,.06)"/>
+<line x1="0" y1="600" x2="1000" y2="600" stroke="rgba(120,165,220,.06)"/>
+<line x1="640" y1="0" x2="640" y2="1000" stroke="rgba(120,165,220,.06)"/>
+<line x1="0" y1="640" x2="1000" y2="640" stroke="rgba(120,165,220,.06)"/>
+<line x1="680" y1="0" x2="680" y2="1000" stroke="rgba(120,165,220,.06)"/>
+<line x1="0" y1="680" x2="1000" y2="680" stroke="rgba(120,165,220,.06)"/>
+<line x1="720" y1="0" x2="720" y2="1000" stroke="rgba(120,165,220,.06)"/>
+<line x1="0" y1="720" x2="1000" y2="720" stroke="rgba(120,165,220,.06)"/>
+<line x1="760" y1="0" x2="760" y2="1000" stroke="rgba(120,165,220,.06)"/>
+<line x1="0" y1="760" x2="1000" y2="760" stroke="rgba(120,165,220,.06)"/>
+<line x1="800" y1="0" x2="800" y2="1000" stroke="rgba(120,165,220,.06)"/>
+<line x1="0" y1="800" x2="1000" y2="800" stroke="rgba(120,165,220,.06)"/>
+<line x1="840" y1="0" x2="840" y2="1000" stroke="rgba(120,165,220,.06)"/>
+<line x1="0" y1="840" x2="1000" y2="840" stroke="rgba(120,165,220,.06)"/>
+<line x1="880" y1="0" x2="880" y2="1000" stroke="rgba(120,165,220,.06)"/>
+<line x1="0" y1="880" x2="1000" y2="880" stroke="rgba(120,165,220,.06)"/>
+<line x1="920" y1="0" x2="920" y2="1000" stroke="rgba(120,165,220,.06)"/>
+<line x1="0" y1="920" x2="1000" y2="920" stroke="rgba(120,165,220,.06)"/>
+<line x1="960" y1="0" x2="960" y2="1000" stroke="rgba(120,165,220,.06)"/>
+<line x1="0" y1="960" x2="1000" y2="960" stroke="rgba(120,165,220,.06)"/>
+<text x="420" y="968" fill="rgba(139,160,189,.42)" font-size="16" letter-spacing="4" text-anchor="middle" font-family="sans-serif">入口与生活区</text>
+<text x="160" y="560" fill="rgba(139,160,189,.42)" font-size="16" letter-spacing="4" text-anchor="middle" font-family="sans-serif">宿舍与活动区</text>
+<text x="420" y="620" fill="rgba(139,160,189,.42)" font-size="16" letter-spacing="4" text-anchor="middle" font-family="sans-serif">教学与阅读区</text>
+<text x="220" y="80" fill="rgba(139,160,189,.42)" font-size="16" letter-spacing="4" text-anchor="middle" font-family="sans-serif">艺术实践区</text>
+<text x="878" y="380" fill="rgba(139,160,189,.42)" font-size="16" letter-spacing="4" text-anchor="middle" font-family="sans-serif">水系</text>
+<text x="760" y="600" fill="rgba(139,160,189,.42)" font-size="16" letter-spacing="4" text-anchor="middle" font-family="sans-serif">运动区</text>
+<path d="M500 902 L411 795 L155 759" fill="none" stroke="rgba(8,16,28,.68)" stroke-width="15" stroke-linecap="round"/>
+<path d="M500 902 L411 795 L155 759" fill="none" stroke="#3c4650" stroke-width="11.5" stroke-linecap="round"/>
+<path d="M500 902 L411 795 L155 759" fill="none" stroke="rgba(226,236,246,.28)" stroke-width="1.4" stroke-dasharray="10 10"/>
+<path d="M155 759 L120 608" fill="none" stroke="rgba(8,16,28,.68)" stroke-width="15" stroke-linecap="round"/>
+<path d="M155 759 L120 608" fill="none" stroke="#3c4650" stroke-width="11.5" stroke-linecap="round"/>
+<path d="M155 759 L120 608" fill="none" stroke="rgba(226,236,246,.28)" stroke-width="1.4" stroke-dasharray="10 10"/>
+<path d="M120 608 L144 454 L278 408" fill="none" stroke="rgba(8,16,28,.68)" stroke-width="15" stroke-linecap="round"/>
+<path d="M120 608 L144 454 L278 408" fill="none" stroke="#3c4650" stroke-width="11.5" stroke-linecap="round"/>
+<path d="M120 608 L144 454 L278 408" fill="none" stroke="rgba(226,236,246,.28)" stroke-width="1.4" stroke-dasharray="10 10"/>
+<path d="M278 408 L400 401 L372 524" fill="none" stroke="rgba(8,16,28,.68)" stroke-width="15" stroke-linecap="round"/>
+<path d="M278 408 L400 401 L372 524" fill="none" stroke="#3c4650" stroke-width="11.5" stroke-linecap="round"/>
+<path d="M278 408 L400 401 L372 524" fill="none" stroke="rgba(226,236,246,.28)" stroke-width="1.4" stroke-dasharray="10 10"/>
+<path d="M372 524 L555 614 L653 491" fill="none" stroke="rgba(8,16,28,.68)" stroke-width="15" stroke-linecap="round"/>
+<path d="M372 524 L555 614 L653 491" fill="none" stroke="#3c4650" stroke-width="11.5" stroke-linecap="round"/>
+<path d="M372 524 L555 614 L653 491" fill="none" stroke="rgba(226,236,246,.28)" stroke-width="1.4" stroke-dasharray="10 10"/>
+<path d="M653 491 L768 708 L772 828" fill="none" stroke="rgba(8,16,28,.68)" stroke-width="15" stroke-linecap="round"/>
+<path d="M653 491 L768 708 L772 828" fill="none" stroke="#3c4650" stroke-width="11.5" stroke-linecap="round"/>
+<path d="M653 491 L768 708 L772 828" fill="none" stroke="rgba(226,236,246,.28)" stroke-width="1.4" stroke-dasharray="10 10"/>
+<path d="M772 828 L697 828 L623 828 L411 795" fill="none" stroke="rgba(8,16,28,.68)" stroke-width="15" stroke-linecap="round"/>
+<path d="M772 828 L697 828 L623 828 L411 795" fill="none" stroke="#3c4650" stroke-width="11.5" stroke-linecap="round"/>
+<path d="M772 828 L697 828 L623 828 L411 795" fill="none" stroke="rgba(226,236,246,.28)" stroke-width="1.4" stroke-dasharray="10 10"/>
+<path d="M278 408 L238 254 L322 150" fill="none" stroke="rgba(8,16,28,.68)" stroke-width="15" stroke-linecap="round"/>
+<path d="M278 408 L238 254 L322 150" fill="none" stroke="#3c4650" stroke-width="11.5" stroke-linecap="round"/>
+<path d="M278 408 L238 254 L322 150" fill="none" stroke="rgba(226,236,246,.28)" stroke-width="1.4" stroke-dasharray="10 10"/>
+<path d="M322 150 L212 151 L110 156" fill="none" stroke="rgba(8,16,28,.68)" stroke-width="15" stroke-linecap="round"/>
+<path d="M322 150 L212 151 L110 156" fill="none" stroke="#3c4650" stroke-width="11.5" stroke-linecap="round"/>
+<path d="M322 150 L212 151 L110 156" fill="none" stroke="rgba(226,236,246,.28)" stroke-width="1.4" stroke-dasharray="10 10"/>
+<path d="M653 491 L878 370" fill="none" stroke="rgba(8,16,28,.68)" stroke-width="15" stroke-linecap="round"/>
+<path d="M653 491 L878 370" fill="none" stroke="#3c4650" stroke-width="11.5" stroke-linecap="round"/>
+<path d="M653 491 L878 370" fill="none" stroke="rgba(226,236,246,.28)" stroke-width="1.4" stroke-dasharray="10 10"/>
+<path d="M868 115 L745 111" fill="none" stroke="rgba(8,16,28,.68)" stroke-width="15" stroke-linecap="round"/>
+<path d="M868 115 L745 111" fill="none" stroke="#3c4650" stroke-width="11.5" stroke-linecap="round"/>
+<path d="M868 115 L745 111" fill="none" stroke="rgba(226,236,246,.28)" stroke-width="1.4" stroke-dasharray="10 10"/>
+<path d="M745 111 L878 370" fill="none" stroke="rgba(8,16,28,.68)" stroke-width="15" stroke-linecap="round"/>
+<path d="M745 111 L878 370" fill="none" stroke="#3c4650" stroke-width="11.5" stroke-linecap="round"/>
+<path d="M745 111 L878 370" fill="none" stroke="rgba(226,236,246,.28)" stroke-width="1.4" stroke-dasharray="10 10"/>
+<path d="M144 454 L110 333" fill="none" stroke="rgba(8,16,28,.5)" stroke-width="9" stroke-linecap="round"/>
+<path d="M144 454 L110 333" fill="none" stroke="#353d45" stroke-width="6" stroke-linecap="round"/>
+<path d="M372 524 L493 508" fill="none" stroke="rgba(8,16,28,.5)" stroke-width="9" stroke-linecap="round"/>
+<path d="M372 524 L493 508" fill="none" stroke="#353d45" stroke-width="6" stroke-linecap="round"/>
+<path d="M278 408 L214 325" fill="none" stroke="rgba(8,16,28,.5)" stroke-width="9" stroke-linecap="round"/>
+<path d="M278 408 L214 325" fill="none" stroke="#353d45" stroke-width="6" stroke-linecap="round"/>
+<path d="M411 795 L878 828" fill="none" stroke="rgba(8,16,28,.5)" stroke-width="9" stroke-linecap="round"/>
+<path d="M411 795 L878 828" fill="none" stroke="#353d45" stroke-width="6" stroke-linecap="round"/>
+<path d="M400 916 L410 842 L560 842 C588 842 600 866 600 882 L524 892 C468 896 420 906 400 916 Z" fill="url(#gold)" stroke="rgba(255,236,180,.6)" stroke-width="1.6"/>
+<rect x="524" y="884" width="86" height="14" rx="2" fill="rgba(250,252,255,.92)"/>
+<text x="567" y="895" fill="#1d3550" font-size="10" font-weight="700" text-anchor="middle" font-family="sans-serif">河北传媒学院</text>
+<text x="500" y="938" fill="#e8eef6" font-size="15" text-anchor="middle" font-family="sans-serif">金色大门</text>
+<rect x="64" y="572" width="120" height="84" rx="7" fill="rgba(24,34,48,.38)" filter="url(#soft)"/>
+<rect x="60" y="566" width="120" height="84" rx="7" fill="url(#c4)" stroke="rgba(120,175,235,.42)" stroke-width="1.5"/>
+<rect x="61.5" y="567.5" width="117" height="5" rx="3" fill="#ffffff" opacity=".16"/>
+<rect x="64.32" y="572.16" width="15.36" height="10.64" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="64.32" y="600.16" width="15.36" height="10.64" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="64.32" y="628.16" width="15.36" height="10.64" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="88.32" y="572.16" width="15.36" height="10.64" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="88.32" y="600.16" width="15.36" height="10.64" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="88.32" y="628.16" width="15.36" height="10.64" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="112.32" y="572.16" width="15.36" height="10.64" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="112.32" y="600.16" width="15.36" height="10.64" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="112.32" y="628.16" width="15.36" height="10.64" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="136.32" y="572.16" width="15.36" height="10.64" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="136.32" y="600.16" width="15.36" height="10.64" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="136.32" y="628.16" width="15.36" height="10.64" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="160.32" y="572.16" width="15.36" height="10.64" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="160.32" y="600.16" width="15.36" height="10.64" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="160.32" y="628.16" width="15.36" height="10.64" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<text x="120" y="670" fill="#c7dcf3" font-size="14" text-anchor="middle" font-family="sans-serif">行政办公楼</text>
+<rect x="744" y="806" width="64" height="56" rx="7" fill="rgba(24,34,48,.38)" filter="url(#soft)"/>
+<rect x="740" y="800" width="64" height="56" rx="7" fill="url(#c8)" stroke="rgba(120,175,235,.42)" stroke-width="1.5"/>
+<rect x="741.5" y="801.5" width="61" height="5" rx="3" fill="#ffffff" opacity=".16"/>
+<rect x="745.76" y="806.16" width="20.48" height="10.64" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="745.76" y="834.16" width="20.48" height="10.64" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="777.76" y="806.16" width="20.48" height="10.64" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="777.76" y="834.16" width="20.48" height="10.64" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<text x="772" y="876" fill="#c7dcf3" font-size="14" text-anchor="middle" font-family="sans-serif">校医院</text>
+<rect x="356" y="768" width="118" height="66" rx="7" fill="rgba(24,34,48,.38)" filter="url(#soft)"/>
+<rect x="352" y="762" width="118" height="66" rx="7" fill="rgba(74,84,92,.9)" stroke="rgba(120,175,235,.42)" stroke-width="1.5"/>
+<text x="411" y="848" fill="#c7dcf3" font-size="14" text-anchor="middle" font-family="sans-serif">中心广场</text>
+<rect x="237" y="362" width="90" height="104" rx="7" fill="rgba(24,34,48,.38)" filter="url(#soft)"/>
+<rect x="233" y="356" width="90" height="104" rx="7" fill="url(#c10)" stroke="rgba(120,175,235,.42)" stroke-width="1.5"/>
+<rect x="234.5" y="357.5" width="87" height="5" rx="3" fill="#ffffff" opacity=".16"/>
+<rect x="238.4" y="361.72" width="19.2" height="9.88" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="238.4" y="387.72" width="19.2" height="9.88" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="238.4" y="413.72" width="19.2" height="9.88" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="238.4" y="439.72" width="19.2" height="9.88" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="268.4" y="361.72" width="19.2" height="9.88" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="268.4" y="387.72" width="19.2" height="9.88" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="268.4" y="413.72" width="19.2" height="9.88" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="268.4" y="439.72" width="19.2" height="9.88" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="298.4" y="361.72" width="19.2" height="9.88" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="298.4" y="387.72" width="19.2" height="9.88" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="298.4" y="413.72" width="19.2" height="9.88" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="298.4" y="439.72" width="19.2" height="9.88" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<text x="278" y="480" fill="#c7dcf3" font-size="14" text-anchor="middle" font-family="sans-serif">大学生活动中心</text>
+<rect x="302" y="480" width="148" height="100" rx="7" fill="rgba(24,34,48,.38)" filter="url(#soft)"/>
+<rect x="298" y="474" width="148" height="100" rx="7" fill="url(#c0)" stroke="rgba(120,175,235,.42)" stroke-width="1.5"/>
+<rect x="299.5" y="475.5" width="145" height="5" rx="3" fill="#ffffff" opacity=".16"/>
+<rect x="302.44" y="479.5" width="15.786666666666667" height="9.5" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="302.44" y="504.5" width="15.786666666666667" height="9.5" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="302.44" y="529.5" width="15.786666666666667" height="9.5" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="302.44" y="554.5" width="15.786666666666667" height="9.5" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="327.1066666666667" y="479.5" width="15.786666666666667" height="9.5" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="327.1066666666667" y="504.5" width="15.786666666666667" height="9.5" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="327.1066666666667" y="529.5" width="15.786666666666667" height="9.5" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="327.1066666666667" y="554.5" width="15.786666666666667" height="9.5" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="351.7733333333333" y="479.5" width="15.786666666666667" height="9.5" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="351.7733333333333" y="504.5" width="15.786666666666667" height="9.5" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="351.7733333333333" y="529.5" width="15.786666666666667" height="9.5" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="351.7733333333333" y="554.5" width="15.786666666666667" height="9.5" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="376.44" y="479.5" width="15.786666666666667" height="9.5" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="376.44" y="504.5" width="15.786666666666667" height="9.5" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="376.44" y="529.5" width="15.786666666666667" height="9.5" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="376.44" y="554.5" width="15.786666666666667" height="9.5" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="401.1066666666667" y="479.5" width="15.786666666666667" height="9.5" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="401.1066666666667" y="504.5" width="15.786666666666667" height="9.5" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="401.1066666666667" y="529.5" width="15.786666666666667" height="9.5" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="401.1066666666667" y="554.5" width="15.786666666666667" height="9.5" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="425.7733333333333" y="479.5" width="15.786666666666667" height="9.5" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="425.7733333333333" y="504.5" width="15.786666666666667" height="9.5" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="425.7733333333333" y="529.5" width="15.786666666666667" height="9.5" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="425.7733333333333" y="554.5" width="15.786666666666667" height="9.5" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<text x="372" y="594" fill="#c7dcf3" font-size="14" text-anchor="middle" font-family="sans-serif">话筒楼</text>
+<rect x="174" y="302" width="88" height="58" rx="7" fill="rgba(24,34,48,.38)" filter="url(#soft)"/>
+<rect x="170" y="296" width="88" height="58" rx="7" fill="url(#c1)" stroke="rgba(120,175,235,.42)" stroke-width="1.5"/>
+<rect x="171.5" y="297.5" width="85" height="5" rx="3" fill="#ffffff" opacity=".16"/>
+<rect x="175.28" y="302.38" width="18.773333333333333" height="11.02" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="175.28" y="331.38" width="18.773333333333333" height="11.02" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="204.61333333333334" y="302.38" width="18.773333333333333" height="11.02" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="204.61333333333334" y="331.38" width="18.773333333333333" height="11.02" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="233.94666666666666" y="302.38" width="18.773333333333333" height="11.02" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="233.94666666666666" y="331.38" width="18.773333333333333" height="11.02" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<text x="214" y="374" fill="#c7dcf3" font-size="14" text-anchor="middle" font-family="sans-serif">活动中心自习室</text>
+<rect x="460" y="480" width="74" height="68" rx="7" fill="rgba(24,34,48,.38)" filter="url(#soft)"/>
+<rect x="456" y="474" width="74" height="68" rx="7" fill="url(#c1)" stroke="rgba(120,175,235,.42)" stroke-width="1.5"/>
+<rect x="457.5" y="475.5" width="71" height="5" rx="3" fill="#ffffff" opacity=".16"/>
+<rect x="460.44" y="478.9866666666667" width="15.786666666666667" height="8.613333333333333" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="460.44" y="501.65333333333336" width="15.786666666666667" height="8.613333333333333" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="460.44" y="524.32" width="15.786666666666667" height="8.613333333333333" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="485.1066666666667" y="478.9866666666667" width="15.786666666666667" height="8.613333333333333" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="485.1066666666667" y="501.65333333333336" width="15.786666666666667" height="8.613333333333333" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="485.1066666666667" y="524.32" width="15.786666666666667" height="8.613333333333333" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="509.7733333333333" y="478.9866666666667" width="15.786666666666667" height="8.613333333333333" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="509.7733333333333" y="501.65333333333336" width="15.786666666666667" height="8.613333333333333" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="509.7733333333333" y="524.32" width="15.786666666666667" height="8.613333333333333" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<text x="493" y="562" fill="#c7dcf3" font-size="14" text-anchor="middle" font-family="sans-serif">教学楼A座113书库</text>
+<rect x="504" y="578" width="110" height="84" rx="7" fill="rgba(24,34,48,.38)" filter="url(#soft)"/>
+<rect x="500" y="572" width="110" height="84" rx="7" fill="url(#c2)" stroke="rgba(120,175,235,.42)" stroke-width="1.5"/>
+<rect x="501.5" y="573.5" width="107" height="5" rx="3" fill="#ffffff" opacity=".16"/>
+<rect x="504.95" y="578.16" width="17.6" height="10.64" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="504.95" y="606.16" width="17.6" height="10.64" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="504.95" y="634.16" width="17.6" height="10.64" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="532.45" y="578.16" width="17.6" height="10.64" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="532.45" y="606.16" width="17.6" height="10.64" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="532.45" y="634.16" width="17.6" height="10.64" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="559.95" y="578.16" width="17.6" height="10.64" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="559.95" y="606.16" width="17.6" height="10.64" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="559.95" y="634.16" width="17.6" height="10.64" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="587.45" y="578.16" width="17.6" height="10.64" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="587.45" y="606.16" width="17.6" height="10.64" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="587.45" y="634.16" width="17.6" height="10.64" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<text x="555" y="676" fill="#c7dcf3" font-size="14" text-anchor="middle" font-family="sans-serif">教学楼A座</text>
+<rect x="694" y="76" width="110" height="82" rx="7" fill="rgba(24,34,48,.38)" filter="url(#soft)"/>
+<rect x="690" y="70" width="110" height="82" rx="7" fill="url(#c2)" stroke="rgba(120,175,235,.42)" stroke-width="1.5"/>
+<rect x="691.5" y="71.5" width="107" height="5" rx="3" fill="#ffffff" opacity=".16"/>
+<rect x="694.95" y="76.01333333333334" width="17.6" height="10.386666666666667" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="694.95" y="103.34666666666666" width="17.6" height="10.386666666666667" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="694.95" y="130.67999999999998" width="17.6" height="10.386666666666667" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="722.45" y="76.01333333333334" width="17.6" height="10.386666666666667" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="722.45" y="103.34666666666666" width="17.6" height="10.386666666666667" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="722.45" y="130.67999999999998" width="17.6" height="10.386666666666667" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="749.95" y="76.01333333333334" width="17.6" height="10.386666666666667" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="749.95" y="103.34666666666666" width="17.6" height="10.386666666666667" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="749.95" y="130.67999999999998" width="17.6" height="10.386666666666667" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="777.45" y="76.01333333333334" width="17.6" height="10.386666666666667" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="777.45" y="103.34666666666666" width="17.6" height="10.386666666666667" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="777.45" y="130.67999999999998" width="17.6" height="10.386666666666667" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<text x="745" y="172" fill="#c7dcf3" font-size="14" text-anchor="middle" font-family="sans-serif">教学楼B座</text>
+<rect x="272" y="110" width="108" height="92" rx="7" fill="rgba(24,34,48,.38)" filter="url(#soft)"/>
+<rect x="268" y="104" width="108" height="92" rx="7" fill="url(#c3)" stroke="rgba(120,175,235,.42)" stroke-width="1.5"/>
+<rect x="269.5" y="105.5" width="105" height="5" rx="3" fill="#ffffff" opacity=".16"/>
+<rect x="272.86" y="109.06" width="17.28" height="8.74" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="272.86" y="132.06" width="17.28" height="8.74" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="272.86" y="155.06" width="17.28" height="8.74" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="272.86" y="178.06" width="17.28" height="8.74" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="299.86" y="109.06" width="17.28" height="8.74" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="299.86" y="132.06" width="17.28" height="8.74" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="299.86" y="155.06" width="17.28" height="8.74" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="299.86" y="178.06" width="17.28" height="8.74" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="326.86" y="109.06" width="17.28" height="8.74" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="326.86" y="132.06" width="17.28" height="8.74" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="326.86" y="155.06" width="17.28" height="8.74" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="326.86" y="178.06" width="17.28" height="8.74" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="353.86" y="109.06" width="17.28" height="8.74" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="353.86" y="132.06" width="17.28" height="8.74" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="353.86" y="155.06" width="17.28" height="8.74" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="353.86" y="178.06" width="17.28" height="8.74" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<text x="322" y="216" fill="#c7dcf3" font-size="14" text-anchor="middle" font-family="sans-serif">影视艺术学院</text>
+<rect x="188" y="222" width="108" height="76" rx="7" fill="rgba(24,34,48,.38)" filter="url(#soft)"/>
+<rect x="184" y="216" width="108" height="76" rx="7" fill="url(#c3)" stroke="rgba(120,175,235,.42)" stroke-width="1.5"/>
+<rect x="185.5" y="217.5" width="105" height="5" rx="3" fill="#ffffff" opacity=".16"/>
+<rect x="188.86" y="221.57333333333332" width="17.28" height="9.626666666666667" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="188.86" y="246.90666666666667" width="17.28" height="9.626666666666667" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="188.86" y="272.24" width="17.28" height="9.626666666666667" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="215.86" y="221.57333333333332" width="17.28" height="9.626666666666667" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="215.86" y="246.90666666666667" width="17.28" height="9.626666666666667" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="215.86" y="272.24" width="17.28" height="9.626666666666667" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="242.86" y="221.57333333333332" width="17.28" height="9.626666666666667" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="242.86" y="246.90666666666667" width="17.28" height="9.626666666666667" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="242.86" y="272.24" width="17.28" height="9.626666666666667" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="269.86" y="221.57333333333332" width="17.28" height="9.626666666666667" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="269.86" y="246.90666666666667" width="17.28" height="9.626666666666667" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="269.86" y="272.24" width="17.28" height="9.626666666666667" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<text x="238" y="312" fill="#c7dcf3" font-size="14" text-anchor="middle" font-family="sans-serif">新闻传播学院</text>
+<rect x="170" y="116" width="92" height="82" rx="7" fill="rgba(24,34,48,.38)" filter="url(#soft)"/>
+<rect x="166" y="110" width="92" height="82" rx="7" fill="url(#c9)" stroke="rgba(120,175,235,.42)" stroke-width="1.5"/>
+<rect x="167.5" y="111.5" width="89" height="5" rx="3" fill="#ffffff" opacity=".16"/>
+<rect x="170.14" y="116.01333333333334" width="14.72" height="10.386666666666667" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="170.14" y="143.34666666666666" width="14.72" height="10.386666666666667" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="170.14" y="170.67999999999998" width="14.72" height="10.386666666666667" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="193.14" y="116.01333333333334" width="14.72" height="10.386666666666667" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="193.14" y="143.34666666666666" width="14.72" height="10.386666666666667" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="193.14" y="170.67999999999998" width="14.72" height="10.386666666666667" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="216.14" y="116.01333333333334" width="14.72" height="10.386666666666667" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="216.14" y="143.34666666666666" width="14.72" height="10.386666666666667" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="216.14" y="170.67999999999998" width="14.72" height="10.386666666666667" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="239.14" y="116.01333333333334" width="14.72" height="10.386666666666667" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="239.14" y="143.34666666666666" width="14.72" height="10.386666666666667" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="239.14" y="170.67999999999998" width="14.72" height="10.386666666666667" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<text x="212" y="212" fill="#c7dcf3" font-size="14" text-anchor="middle" font-family="sans-serif">排练厅</text>
+<rect x="68" y="116" width="92" height="92" rx="7" fill="rgba(24,34,48,.38)" filter="url(#soft)"/>
+<rect x="64" y="110" width="92" height="92" rx="7" fill="url(#c9)" stroke="rgba(120,175,235,.42)" stroke-width="1.5"/>
+<rect x="65.5" y="111.5" width="89" height="5" rx="3" fill="#ffffff" opacity=".16"/>
+<rect x="68.14" y="115.06" width="14.72" height="8.74" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="68.14" y="138.06" width="14.72" height="8.74" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="68.14" y="161.06" width="14.72" height="8.74" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="68.14" y="184.06" width="14.72" height="8.74" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="91.14" y="115.06" width="14.72" height="8.74" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="91.14" y="138.06" width="14.72" height="8.74" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="91.14" y="161.06" width="14.72" height="8.74" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="91.14" y="184.06" width="14.72" height="8.74" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="114.14" y="115.06" width="14.72" height="8.74" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="114.14" y="138.06" width="14.72" height="8.74" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="114.14" y="161.06" width="14.72" height="8.74" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="114.14" y="184.06" width="14.72" height="8.74" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="137.14" y="115.06" width="14.72" height="8.74" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="137.14" y="138.06" width="14.72" height="8.74" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="137.14" y="161.06" width="14.72" height="8.74" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="137.14" y="184.06" width="14.72" height="8.74" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<text x="110" y="222" fill="#c7dcf3" font-size="14" text-anchor="middle" font-family="sans-serif">音乐厅</text>
+<rect x="826" y="84" width="92" height="74" rx="7" fill="rgba(24,34,48,.38)" filter="url(#soft)"/>
+<rect x="822" y="78" width="92" height="74" rx="7" fill="url(#c9)" stroke="rgba(120,175,235,.42)" stroke-width="1.5"/>
+<rect x="823.5" y="79.5" width="89" height="5" rx="3" fill="#ffffff" opacity=".16"/>
+<rect x="826.14" y="83.42666666666666" width="14.72" height="9.373333333333333" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="826.14" y="108.09333333333333" width="14.72" height="9.373333333333333" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="826.14" y="132.76000000000002" width="14.72" height="9.373333333333333" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="849.14" y="83.42666666666666" width="14.72" height="9.373333333333333" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="849.14" y="108.09333333333333" width="14.72" height="9.373333333333333" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="849.14" y="132.76000000000002" width="14.72" height="9.373333333333333" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="872.14" y="83.42666666666666" width="14.72" height="9.373333333333333" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="872.14" y="108.09333333333333" width="14.72" height="9.373333333333333" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="872.14" y="132.76000000000002" width="14.72" height="9.373333333333333" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="895.14" y="83.42666666666666" width="14.72" height="9.373333333333333" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="895.14" y="108.09333333333333" width="14.72" height="9.373333333333333" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="895.14" y="132.76000000000002" width="14.72" height="9.373333333333333" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<text x="868" y="172" fill="#c7dcf3" font-size="14" text-anchor="middle" font-family="sans-serif">演播厅</text>
+<rect x="64" y="420" width="168" height="80" rx="7" fill="rgba(24,34,48,.38)" filter="url(#soft)"/>
+<rect x="60" y="414" width="168" height="80" rx="7" fill="url(#c5)" stroke="rgba(120,175,235,.42)" stroke-width="1.5"/>
+<rect x="61.5" y="415.5" width="165" height="5" rx="3" fill="#ffffff" opacity=".16"/>
+<rect x="65.04" y="419.8666666666667" width="17.92" height="10.133333333333335" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="65.04" y="446.53333333333336" width="17.92" height="10.133333333333335" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="65.04" y="473.2" width="17.92" height="10.133333333333335" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="93.04" y="419.8666666666667" width="17.92" height="10.133333333333335" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="93.04" y="446.53333333333336" width="17.92" height="10.133333333333335" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="93.04" y="473.2" width="17.92" height="10.133333333333335" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="121.04" y="419.8666666666667" width="17.92" height="10.133333333333335" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="121.04" y="446.53333333333336" width="17.92" height="10.133333333333335" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="121.04" y="473.2" width="17.92" height="10.133333333333335" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="149.04" y="419.8666666666667" width="17.92" height="10.133333333333335" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="149.04" y="446.53333333333336" width="17.92" height="10.133333333333335" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="149.04" y="473.2" width="17.92" height="10.133333333333335" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="177.04" y="419.8666666666667" width="17.92" height="10.133333333333335" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="177.04" y="446.53333333333336" width="17.92" height="10.133333333333335" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="177.04" y="473.2" width="17.92" height="10.133333333333335" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="205.04" y="419.8666666666667" width="17.92" height="10.133333333333335" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="205.04" y="446.53333333333336" width="17.92" height="10.133333333333335" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="205.04" y="473.2" width="17.92" height="10.133333333333335" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<text x="144" y="514" fill="#c7dcf3" font-size="14" text-anchor="middle" font-family="sans-serif">宿舍区</text>
+<rect x="64" y="306" width="100" height="66" rx="7" fill="rgba(24,34,48,.38)" filter="url(#soft)"/>
+<rect x="60" y="300" width="100" height="66" rx="7" fill="url(#c7)" stroke="rgba(120,175,235,.42)" stroke-width="1.5"/>
+<rect x="61.5" y="301.5" width="97" height="5" rx="3" fill="#ffffff" opacity=".16"/>
+<rect x="64.5" y="304.84" width="16" height="8.36" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="64.5" y="326.84" width="16" height="8.36" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="64.5" y="348.84" width="16" height="8.36" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="89.5" y="304.84" width="16" height="8.36" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="89.5" y="326.84" width="16" height="8.36" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="89.5" y="348.84" width="16" height="8.36" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="114.5" y="304.84" width="16" height="8.36" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="114.5" y="326.84" width="16" height="8.36" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="114.5" y="348.84" width="16" height="8.36" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="139.5" y="304.84" width="16" height="8.36" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="139.5" y="326.84" width="16" height="8.36" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="139.5" y="348.84" width="16" height="8.36" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<text x="110" y="386" fill="#c7dcf3" font-size="14" text-anchor="middle" font-family="sans-serif">公共浴室</text>
+<rect x="100" y="706" width="118" height="118" rx="7" fill="rgba(24,34,48,.38)" filter="url(#soft)"/>
+<rect x="96" y="700" width="118" height="118" rx="7" fill="url(#c6)" stroke="rgba(120,175,235,.42)" stroke-width="1.5"/>
+<rect x="97.5" y="701.5" width="115" height="5" rx="3" fill="#ffffff" opacity=".16"/>
+<rect x="100.248" y="705.192" width="15.104000000000001" height="8.968" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="100.248" y="728.792" width="15.104000000000001" height="8.968" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="100.248" y="752.392" width="15.104000000000001" height="8.968" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="100.248" y="775.992" width="15.104000000000001" height="8.968" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="100.248" y="799.592" width="15.104000000000001" height="8.968" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="123.848" y="705.192" width="15.104000000000001" height="8.968" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="123.848" y="728.792" width="15.104000000000001" height="8.968" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="123.848" y="752.392" width="15.104000000000001" height="8.968" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="123.848" y="775.992" width="15.104000000000001" height="8.968" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="123.848" y="799.592" width="15.104000000000001" height="8.968" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="147.44799999999998" y="705.192" width="15.104000000000001" height="8.968" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="147.44799999999998" y="728.792" width="15.104000000000001" height="8.968" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="147.44799999999998" y="752.392" width="15.104000000000001" height="8.968" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="147.44799999999998" y="775.992" width="15.104000000000001" height="8.968" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="147.44799999999998" y="799.592" width="15.104000000000001" height="8.968" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="171.048" y="705.192" width="15.104000000000001" height="8.968" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="171.048" y="728.792" width="15.104000000000001" height="8.968" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="171.048" y="752.392" width="15.104000000000001" height="8.968" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="171.048" y="775.992" width="15.104000000000001" height="8.968" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="171.048" y="799.592" width="15.104000000000001" height="8.968" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="194.648" y="705.192" width="15.104000000000001" height="8.968" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="194.648" y="728.792" width="15.104000000000001" height="8.968" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="194.648" y="752.392" width="15.104000000000001" height="8.968" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="194.648" y="775.992" width="15.104000000000001" height="8.968" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="194.648" y="799.592" width="15.104000000000001" height="8.968" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<text x="155" y="838" fill="#c7dcf3" font-size="14" text-anchor="middle" font-family="sans-serif">学生食堂</text>
+<rect x="596" y="806" width="62" height="56" rx="7" fill="rgba(24,34,48,.38)" filter="url(#soft)"/>
+<rect x="592" y="800" width="62" height="56" rx="7" fill="url(#c7)" stroke="rgba(120,175,235,.42)" stroke-width="1.5"/>
+<rect x="593.5" y="801.5" width="59" height="5" rx="3" fill="#ffffff" opacity=".16"/>
+<rect x="597.58" y="806.16" width="19.84" height="10.64" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="597.58" y="834.16" width="19.84" height="10.64" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="628.58" y="806.16" width="19.84" height="10.64" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="628.58" y="834.16" width="19.84" height="10.64" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<text x="623" y="876" fill="#c7dcf3" font-size="14" text-anchor="middle" font-family="sans-serif">校园超市</text>
+<rect x="668" y="806" width="66" height="56" rx="7" fill="rgba(24,34,48,.38)" filter="url(#soft)"/>
+<rect x="664" y="800" width="66" height="56" rx="7" fill="url(#c7)" stroke="rgba(120,175,235,.42)" stroke-width="1.5"/>
+<rect x="665.5" y="801.5" width="63" height="5" rx="3" fill="#ffffff" opacity=".16"/>
+<rect x="667.96" y="806.16" width="14.08" height="10.64" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="667.96" y="834.16" width="14.08" height="10.64" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="689.96" y="806.16" width="14.08" height="10.64" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="689.96" y="834.16" width="14.08" height="10.64" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="711.96" y="806.16" width="14.08" height="10.64" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="711.96" y="834.16" width="14.08" height="10.64" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<text x="697" y="876" fill="#c7dcf3" font-size="14" text-anchor="middle" font-family="sans-serif">快递服务点</text>
+<rect x="624" y="464" width="66" height="66" rx="7" fill="rgba(24,34,48,.38)" filter="url(#soft)"/>
+<rect x="620" y="458" width="66" height="66" rx="7" fill="url(#c7)" stroke="rgba(120,175,235,.42)" stroke-width="1.5"/>
+<rect x="621.5" y="459.5" width="63" height="5" rx="3" fill="#ffffff" opacity=".16"/>
+<rect x="623.96" y="462.84" width="14.08" height="8.36" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="623.96" y="484.84" width="14.08" height="8.36" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="623.96" y="506.84" width="14.08" height="8.36" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="645.96" y="462.84" width="14.08" height="8.36" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="645.96" y="484.84" width="14.08" height="8.36" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="645.96" y="506.84" width="14.08" height="8.36" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="667.96" y="462.84" width="14.08" height="8.36" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="667.96" y="484.84" width="14.08" height="8.36" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<rect x="667.96" y="506.84" width="14.08" height="8.36" rx="1.4" fill="rgba(255,255,255,.18)"/>
+<text x="653" y="544" fill="#c7dcf3" font-size="14" text-anchor="middle" font-family="sans-serif">文印店</text>
+<rect x="624" y="626" width="296" height="176" rx="73.92" fill="rgba(24,34,48,.4)" filter="url(#soft)"/>
+<rect x="620" y="620" width="296" height="176" rx="73.92" fill="#b4483a" stroke="rgba(255,190,170,.3)" stroke-width="1.6"/>
+<rect x="676.24" y="653.44" width="183.52" height="109.12" rx="4" fill="#3d7a45" stroke="rgba(255,255,255,.42)" stroke-width="1.2"/>
+<circle cx="768" cy="708" r="26.64" fill="none" stroke="rgba(255,255,255,.4)"/>
+<line x1="768" y1="653.44" x2="768" y2="762.56" stroke="rgba(255,255,255,.4)"/>
+<rect x="604" y="651.68" width="14" height="112.64" rx="3" fill="#8f3a2e" stroke="rgba(255,200,180,.32)"/>
+<text x="768" y="816" fill="#e8eef6" font-size="15" text-anchor="middle" font-family="sans-serif">田径场</text>
+<ellipse cx="878" cy="370" rx="46.08" ry="156.4" fill="url(#water)" stroke="rgba(150,210,240,.22)" stroke-width="1.4"/>
+<path d="M820 430 C860 310 898 410 898 370 C898 310 906 410 936 300" fill="none" stroke="#d9c9a8" stroke-width="4" stroke-linecap="round"/>
+<text x="878" y="560" fill="#e8eef6" font-size="14" text-anchor="middle" font-family="sans-serif">校园水系</text>
+<rect x="350" y="358" width="100" height="86" rx="10" fill="rgba(74,84,92,.92)"/>
+<rect x="369" y="381.22" width="62" height="39.56" rx="6" fill="url(#water)"/>
+<circle cx="400" cy="401" r="11.868" fill="none" stroke="#e8621f" stroke-width="6"/>
+<circle cx="400" cy="401" r="11.868" fill="none" stroke="#ffa15c" stroke-width="2"/>
+<text x="400" y="464" fill="#e8eef6" font-size="14" text-anchor="middle" font-family="sans-serif">喷泉广场</text>
+<rect x="824" y="806" width="116" height="56" rx="7" fill="rgba(24,34,48,.38)" filter="url(#soft)"/>
+<rect x="820" y="800" width="116" height="56" rx="7" fill="rgba(74,84,92,.9)" stroke="rgba(120,175,235,.42)" stroke-width="1.5"/>
+<text x="878" y="876" fill="#c7dcf3" font-size="14" text-anchor="middle" font-family="sans-serif">停车场</text>
+</svg>

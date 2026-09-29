@@ -1,0 +1,1214 @@
+{
+  "meta": {
+    "campus": "河北传媒学院 · 兴安校区",
+    "coordinate": "0-1000 逻辑坐标，y 轴向下；按功能区显式排布并按真实建筑尺度缩放，1 单位 ≈ 1 米（示意布局，非实测测绘）",
+    "disclaimer": "建筑相对方位为依据公开信息绘制的示意布局，仅用于导览演示，非测绘数据；实际以校内导视牌为准。",
+    "layoutNote": "各场所的相对方位按校园功能区关系编排，占地尺寸按真实建筑量级缩放，建筑之间保留通道与绿化间距。**不是实测测绘数据**，精确点位请以校内导视牌与官方平面图为准。"
+  },
+  "walkSpeedMPerMin": 75,
+  "places": [
+    {
+      "id": "place_gate",
+      "name": "金色大门（校门口）",
+      "category": "出入口",
+      "entity": "place_gate",
+      "x": 500,
+      "y": 902,
+      "rect": {
+        "x": 392,
+        "y": 880,
+        "w": 216,
+        "h": 44
+      },
+      "icon": "gate",
+      "level": 0,
+      "tags": [
+        "金色大门",
+        "校门",
+        "大门",
+        "正门",
+        "门口",
+        "接站",
+        "打车",
+        "公交"
+      ],
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "open": "00:00",
+          "close": "23:59"
+        }
+      ],
+      "note": "兴安校区主入口，标志性金色曲面拱门，是学校形象地标。门口设公交站点与网约车上下客区，报到季设迎新接站点。",
+      "edges": []
+    },
+    {
+      "id": "place_admin_office",
+      "name": "行政办公楼",
+      "category": "行政",
+      "entity": "place_admin_office",
+      "x": 120,
+      "y": 608,
+      "rect": {
+        "x": 60,
+        "y": 566,
+        "w": 120,
+        "h": 84
+      },
+      "icon": "office",
+      "level": 0,
+      "tags": [
+        "行政楼",
+        "学生处",
+        "教务处",
+        "学院办公室",
+        "办公",
+        "盖章"
+      ],
+      "hours": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "open": "08:30",
+          "close": "11:30"
+        },
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "open": "14:00",
+          "close": "17:30"
+        }
+      ],
+      "note": "学生处、教务处、各学院学生工作办公室集中办公；周末与法定节假日不办公。",
+      "edges": [
+        "place_clinic",
+        "place_plaza"
+      ]
+    },
+    {
+      "id": "place_clinic",
+      "name": "校医院",
+      "category": "医疗",
+      "entity": "place_clinic",
+      "x": 772,
+      "y": 828,
+      "rect": {
+        "x": 740,
+        "y": 800,
+        "w": 64,
+        "h": 56
+      },
+      "icon": "clinic",
+      "level": 0,
+      "tags": [
+        "校医院",
+        "医务室",
+        "看病",
+        "门诊",
+        "体检",
+        "换药",
+        "转诊"
+      ],
+      "hours": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "open": "08:00",
+          "close": "17:00"
+        },
+        {
+          "days": [
+            6,
+            0
+          ],
+          "open": "09:00",
+          "close": "12:00"
+        }
+      ],
+      "note": "可处理常见内科与外伤处置，需专科检查时开具转诊单。",
+      "edges": [
+        "place_admin_office",
+        "place_dorm"
+      ]
+    },
+    {
+      "id": "place_plaza",
+      "name": "中心广场",
+      "category": "公共空间",
+      "entity": "place_plaza",
+      "x": 411,
+      "y": 795,
+      "rect": {
+        "x": 352,
+        "y": 762,
+        "w": 118,
+        "h": 66
+      },
+      "icon": "plaza",
+      "level": 0,
+      "tags": [
+        "广场",
+        "升旗",
+        "主干道",
+        "集合",
+        "活动"
+      ],
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "open": "00:00",
+          "close": "23:59"
+        }
+      ],
+      "note": "校区主干道交汇处，社团纳新、展览与集合活动常在此举行。",
+      "edges": [
+        "place_gate",
+        "place_admin_office",
+        "place_activity_center",
+        "library_huatonglou",
+        "place_canteen"
+      ]
+    },
+    {
+      "id": "place_activity_center",
+      "name": "大学生活动中心",
+      "category": "自习与活动",
+      "entity": "building_activity_center",
+      "x": 278,
+      "y": 408,
+      "rect": {
+        "x": 233,
+        "y": 356,
+        "w": 90,
+        "h": 104
+      },
+      "icon": "center",
+      "level": 0,
+      "tags": [
+        "大学生活动中心",
+        "活动中心",
+        "自习室",
+        "期刊阅览室",
+        "社团活动室",
+        "演出"
+      ],
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "open": "07:30",
+          "close": "23:00"
+        }
+      ],
+      "note": "内设自习室（7:30—23:00）、期刊阅览室、社团活动室与排练演出空间；是全校区开放到最晚的自习点。",
+      "edges": [
+        "place_plaza",
+        "library_huatonglou",
+        "place_dorm",
+        "building_studio"
+      ]
+    },
+    {
+      "id": "library_huatonglou",
+      "name": "话筒楼（图书馆）",
+      "category": "图书馆",
+      "entity": "library_huatonglou",
+      "x": 372,
+      "y": 524,
+      "rect": {
+        "x": 298,
+        "y": 474,
+        "w": 148,
+        "h": 100
+      },
+      "icon": "library",
+      "level": 0,
+      "tags": [
+        "话筒楼",
+        "图书馆",
+        "借阅室",
+        "电子阅览室",
+        "自习室",
+        "书库",
+        "座位预约"
+      ],
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "open": "07:30",
+          "close": "22:30"
+        }
+      ],
+      "note": "一楼为借阅室与电子阅览室（8:00—22:30），二、三楼为自习室（7:30—22:30）；座位需预约。",
+      "edges": [
+        "place_plaza",
+        "place_activity_center",
+        "building_a",
+        "place_study_a113"
+      ]
+    },
+    {
+      "id": "place_study_center",
+      "name": "活动中心自习室",
+      "category": "自习室",
+      "entity": "facility_study_room",
+      "x": 214,
+      "y": 325,
+      "rect": {
+        "x": 170,
+        "y": 296,
+        "w": 88,
+        "h": 58
+      },
+      "icon": "seat",
+      "level": 1,
+      "tags": [
+        "自习室",
+        "活动中心自习室",
+        "自习",
+        "复习",
+        "备考",
+        "刷题"
+      ],
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "open": "07:30",
+          "close": "23:00"
+        }
+      ],
+      "note": "位于大学生活动中心内，开放时间最长（至 23:00），期末周较为紧张。",
+      "edges": [
+        "place_activity_center",
+        "place_plaza"
+      ]
+    },
+    {
+      "id": "place_study_a113",
+      "name": "教学楼A座113书库",
+      "category": "自习室",
+      "entity": "facility_study_room",
+      "x": 493,
+      "y": 508,
+      "rect": {
+        "x": 456,
+        "y": 474,
+        "w": 74,
+        "h": 68
+      },
+      "icon": "book",
+      "level": 1,
+      "tags": [
+        "A座113",
+        "113书库",
+        "书库",
+        "自习",
+        "借阅"
+      ],
+      "hours": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "open": "08:00",
+          "close": "11:40"
+        },
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "open": "13:30",
+          "close": "16:45"
+        }
+      ],
+      "note": "仅工作日开放，中午与周末闭馆；适合白天借阅与短时自习。",
+      "edges": [
+        "building_a",
+        "library_huatonglou"
+      ]
+    },
+    {
+      "id": "building_a",
+      "name": "教学楼A座",
+      "category": "教学楼",
+      "entity": "building_a",
+      "x": 555,
+      "y": 614,
+      "rect": {
+        "x": 500,
+        "y": 572,
+        "w": 110,
+        "h": 84
+      },
+      "icon": "teach",
+      "level": 1,
+      "tags": [
+        "教学楼",
+        "A座",
+        "教室",
+        "上课",
+        "机房",
+        "自习教室"
+      ],
+      "hours": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "open": "07:30",
+          "close": "21:30"
+        },
+        {
+          "days": [
+            6,
+            0
+          ],
+          "open": "08:00",
+          "close": "18:00"
+        }
+      ],
+      "note": "一层设 113 书库；非上课时段的空闲教室可用于自习（以不影响教学为前提）。",
+      "edges": [
+        "library_huatonglou",
+        "place_study_a113",
+        "building_b"
+      ]
+    },
+    {
+      "id": "building_b",
+      "name": "教学楼B座",
+      "category": "教学楼",
+      "entity": "building_b",
+      "x": 745,
+      "y": 111,
+      "rect": {
+        "x": 690,
+        "y": 70,
+        "w": 110,
+        "h": 82
+      },
+      "icon": "teach",
+      "level": 1,
+      "tags": [
+        "教学楼",
+        "B座",
+        "教室",
+        "上课",
+        "实验室",
+        "机房"
+      ],
+      "hours": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "open": "07:30",
+          "close": "21:30"
+        },
+        {
+          "days": [
+            6,
+            0
+          ],
+          "open": "08:00",
+          "close": "18:00"
+        }
+      ],
+      "note": "以专业教室与实验室为主。",
+      "edges": [
+        "building_a",
+        "building_film"
+      ]
+    },
+    {
+      "id": "building_film",
+      "name": "影视艺术学院",
+      "category": "学院楼",
+      "entity": "building_film",
+      "x": 322,
+      "y": 150,
+      "rect": {
+        "x": 268,
+        "y": 104,
+        "w": 108,
+        "h": 92
+      },
+      "icon": "film",
+      "level": 1,
+      "tags": [
+        "影视艺术学院",
+        "影视",
+        "编导",
+        "摄影",
+        "剪辑",
+        "学院楼"
+      ],
+      "hours": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "open": "08:00",
+          "close": "21:00"
+        }
+      ],
+      "note": "影视摄影与制作、广播电视编导等专业教学与创作空间。",
+      "edges": [
+        "building_journalism",
+        "place_rehearsal",
+        "building_b",
+        "building_studio"
+      ]
+    },
+    {
+      "id": "building_journalism",
+      "name": "新闻传播学院",
+      "category": "学院楼",
+      "entity": "building_journalism",
+      "x": 238,
+      "y": 254,
+      "rect": {
+        "x": 184,
+        "y": 216,
+        "w": 108,
+        "h": 76
+      },
+      "icon": "news",
+      "level": 1,
+      "tags": [
+        "新闻传播学院",
+        "新闻",
+        "新媒体",
+        "传播",
+        "学院楼"
+      ],
+      "hours": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "open": "08:00",
+          "close": "21:00"
+        }
+      ],
+      "note": "新闻学、网络与新媒体、传播学等专业所在学院。",
+      "edges": [
+        "building_film",
+        "place_activity_center",
+        "place_rehearsal"
+      ]
+    },
+    {
+      "id": "place_rehearsal",
+      "name": "排练厅",
+      "category": "艺术实践",
+      "entity": "place_rehearsal",
+      "x": 212,
+      "y": 151,
+      "rect": {
+        "x": 166,
+        "y": 110,
+        "w": 92,
+        "h": 82
+      },
+      "icon": "music",
+      "level": 1,
+      "tags": [
+        "排练厅",
+        "排练室",
+        "练功房",
+        "琴房",
+        "舞蹈",
+        "话剧"
+      ],
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "open": "08:00",
+          "close": "21:30"
+        }
+      ],
+      "note": "需以班级或社团为单位申请排期，使用后须恢复场地并交接设备。",
+      "edges": [
+        "building_film",
+        "place_music_hall",
+        "building_journalism"
+      ]
+    },
+    {
+      "id": "building_music_hall",
+      "name": "音乐厅",
+      "category": "艺术实践",
+      "entity": "building_music_hall",
+      "x": 110,
+      "y": 156,
+      "rect": {
+        "x": 64,
+        "y": 110,
+        "w": 92,
+        "h": 92
+      },
+      "icon": "hall",
+      "level": 1,
+      "tags": [
+        "音乐厅",
+        "演出",
+        "音乐会",
+        "展演",
+        "汇报演出"
+      ],
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "open": "09:00",
+          "close": "21:00"
+        }
+      ],
+      "note": "中韩友好高校音乐会等交流演出与学院汇报演出场地。",
+      "edges": [
+        "place_rehearsal",
+        "building_studio"
+      ]
+    },
+    {
+      "id": "place_studio",
+      "name": "演播厅",
+      "category": "艺术实践",
+      "entity": "place_studio",
+      "x": 868,
+      "y": 115,
+      "rect": {
+        "x": 822,
+        "y": 78,
+        "w": 92,
+        "h": 74
+      },
+      "icon": "studio",
+      "level": 1,
+      "tags": [
+        "演播厅",
+        "演播室",
+        "录制",
+        "直播",
+        "节目制作",
+        "摄影棚"
+      ],
+      "hours": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "open": "08:30",
+          "close": "20:30"
+        }
+      ],
+      "note": "节目录制、直播与影视创作实践场地，需提前申请排期。",
+      "edges": [
+        "building_film",
+        "place_rehearsal",
+        "building_music_hall"
+      ]
+    },
+    {
+      "id": "place_dorm",
+      "name": "宿舍区",
+      "category": "住宿",
+      "entity": "place_dorm",
+      "x": 144,
+      "y": 454,
+      "rect": {
+        "x": 60,
+        "y": 414,
+        "w": 168,
+        "h": 80
+      },
+      "icon": "dorm",
+      "level": 0,
+      "tags": [
+        "宿舍",
+        "宿舍区",
+        "寝室",
+        "公寓",
+        "住宿",
+        "床铺",
+        "回宿舍"
+      ],
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "open": "00:00",
+          "close": "23:59"
+        }
+      ],
+      "note": "床铺尺寸 0.9m×2m；公寓化管理，一楼设值班室可报修、取用工具。",
+      "edges": [
+        "place_canteen",
+        "place_market",
+        "place_clinic",
+        "place_activity_center",
+        "place_bathhouse"
+      ]
+    },
+    {
+      "id": "place_bathhouse",
+      "name": "公共浴室",
+      "category": "生活服务",
+      "entity": "place_bathhouse",
+      "x": 110,
+      "y": 333,
+      "rect": {
+        "x": 60,
+        "y": 300,
+        "w": 100,
+        "h": 66
+      },
+      "icon": "bath",
+      "level": 1,
+      "tags": [
+        "浴室",
+        "澡堂",
+        "洗澡",
+        "淋浴",
+        "热水",
+        "洗浴"
+      ],
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "open": "11:30",
+          "close": "14:00"
+        },
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "open": "18:00",
+          "close": "23:00"
+        }
+      ],
+      "note": "刷卡计费，各楼栋开放时段略有差异，以浴室门口公告为准。",
+      "edges": [
+        "place_dorm"
+      ]
+    },
+    {
+      "id": "place_canteen",
+      "name": "学生食堂",
+      "category": "餐饮",
+      "entity": "place_canteen",
+      "x": 155,
+      "y": 759,
+      "rect": {
+        "x": 96,
+        "y": 700,
+        "w": 118,
+        "h": 118
+      },
+      "icon": "food",
+      "level": 0,
+      "tags": [
+        "食堂",
+        "餐厅",
+        "吃饭",
+        "就餐",
+        "档口",
+        "早餐",
+        "午餐",
+        "晚餐"
+      ],
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "open": "06:30",
+          "close": "09:00"
+        },
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "open": "11:00",
+          "close": "13:30"
+        },
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "open": "17:00",
+          "close": "19:30"
+        }
+      ],
+      "note": "含多个学生餐厅与风味档口，部分档口营业至 21:00 左右；支持一卡通与移动支付。",
+      "edges": [
+        "place_dorm",
+        "place_market",
+        "place_plaza"
+      ]
+    },
+    {
+      "id": "place_market",
+      "name": "校园超市",
+      "category": "生活服务",
+      "entity": "place_market",
+      "x": 623,
+      "y": 828,
+      "rect": {
+        "x": 592,
+        "y": 800,
+        "w": 62,
+        "h": 56
+      },
+      "icon": "shop",
+      "level": 1,
+      "tags": [
+        "超市",
+        "便利店",
+        "买东西",
+        "日用品",
+        "零食"
+      ],
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "open": "07:30",
+          "close": "22:30"
+        }
+      ],
+      "note": "位于生活服务区，与食堂、快递点相邻。",
+      "edges": [
+        "place_canteen",
+        "place_express",
+        "place_dorm"
+      ]
+    },
+    {
+      "id": "place_express",
+      "name": "快递服务点",
+      "category": "生活服务",
+      "entity": "place_express",
+      "x": 697,
+      "y": 828,
+      "rect": {
+        "x": 664,
+        "y": 800,
+        "w": 66,
+        "h": 56
+      },
+      "icon": "box",
+      "level": 1,
+      "tags": [
+        "快递",
+        "驿站",
+        "取件",
+        "包裹",
+        "邮寄",
+        "代收",
+        "菜鸟"
+      ],
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "open": "09:00",
+          "close": "20:30"
+        }
+      ],
+      "note": "取件凭取件码或校园卡核验；大件行李可提前寄到此处。",
+      "edges": [
+        "place_market",
+        "place_canteen",
+        "place_print"
+      ]
+    },
+    {
+      "id": "place_print",
+      "name": "文印店（自助打印）",
+      "category": "生活服务",
+      "entity": "place_print",
+      "x": 653,
+      "y": 491,
+      "rect": {
+        "x": 620,
+        "y": 458,
+        "w": 66,
+        "h": 66
+      },
+      "icon": "print",
+      "level": 1,
+      "tags": [
+        "打印",
+        "复印",
+        "文印",
+        "自助打印",
+        "成绩单打印",
+        "装订"
+      ],
+      "hours": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "open": "08:00",
+          "close": "20:00"
+        },
+        {
+          "days": [
+            6,
+            0
+          ],
+          "open": "09:00",
+          "close": "17:00"
+        }
+      ],
+      "note": "可打印成绩单与证明文件，建议避开课前高峰时段。",
+      "edges": [
+        "place_express",
+        "building_a"
+      ]
+    },
+    {
+      "id": "place_sports",
+      "name": "田径场",
+      "category": "运动场馆",
+      "entity": "place_sports",
+      "x": 768,
+      "y": 708,
+      "rect": {
+        "x": 620,
+        "y": 620,
+        "w": 296,
+        "h": 176
+      },
+      "shape": "track",
+      "icon": "sport",
+      "level": 1,
+      "tags": [
+        "操场",
+        "田径场",
+        "运动场",
+        "跑道",
+        "足球场",
+        "看台",
+        "运动会",
+        "体育课",
+        "篮球",
+        "羽毛球"
+      ],
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "open": "06:00",
+          "close": "22:00"
+        }
+      ],
+      "note": "标准红色环形塑胶跑道 + 中央绿色足球场，西侧设看台（红白座椅），校内田径运动会在此举行；晚间开放至 22:00。",
+      "edges": [
+        "place_print",
+        "building_a",
+        "place_parking"
+      ]
+    },
+    {
+      "id": "lake_campus",
+      "name": "校园水系与曲桥",
+      "category": "水域",
+      "entity": "lake_campus",
+      "x": 878,
+      "y": 370,
+      "rect": {
+        "x": 830,
+        "y": 200,
+        "w": 96,
+        "h": 340
+      },
+      "shape": "lake",
+      "icon": "water",
+      "level": 0,
+      "tags": [
+        "湖",
+        "水系",
+        "水景",
+        "曲桥",
+        "栈道",
+        "夜景",
+        "散步"
+      ],
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "open": "00:00",
+          "close": "23:59"
+        }
+      ],
+      "note": "校区东侧水景带，设蜿蜒曲桥与栈道，夜间灯光倒影是校园夜景的主要取景点。",
+      "edges": [
+        "place_study_center",
+        "building_a",
+        "lake_fountain"
+      ]
+    },
+    {
+      "id": "lake_fountain",
+      "name": "喷泉广场（环形雕塑）",
+      "category": "水域",
+      "entity": "lake_fountain",
+      "x": 400,
+      "y": 401,
+      "rect": {
+        "x": 350,
+        "y": 358,
+        "w": 100,
+        "h": 86
+      },
+      "shape": "fountain",
+      "icon": "water",
+      "level": 0,
+      "tags": [
+        "喷泉",
+        "水池",
+        "环形雕塑",
+        "打卡",
+        "广场",
+        "地标"
+      ],
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "open": "00:00",
+          "close": "23:59"
+        }
+      ],
+      "note": "标志性橙色环形水景雕塑，位于校园景观主轴，是校内主要拍照打卡点。",
+      "edges": [
+        "place_plaza",
+        "library_huatonglou",
+        "lake_campus"
+      ]
+    },
+    {
+      "id": "place_parking",
+      "name": "停车场",
+      "category": "交通",
+      "entity": "place_parking",
+      "x": 878,
+      "y": 828,
+      "rect": {
+        "x": 820,
+        "y": 800,
+        "w": 116,
+        "h": 56
+      },
+      "icon": "car",
+      "level": 1,
+      "tags": [
+        "停车场",
+        "停车",
+        "自驾",
+        "家长送",
+        "车位"
+      ],
+      "hours": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "open": "00:00",
+          "close": "23:59"
+        }
+      ],
+      "note": "报到季车位紧张，建议在指定区域即停即走。",
+      "edges": [
+        "place_gate",
+        "place_sports"
+      ]
+    }
+  ]
+}
